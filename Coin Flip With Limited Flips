@@ -1,0 +1,75 @@
+# import random
+
+# limit2 = 1
+# count2 = 0
+
+# while(count2 < limit2):
+
+#   count2 = count2 + 1
+  
+#   count = 0
+#   heads = 0
+#   tails = 0
+#   limit = input("Enter limit:")
+  
+#   limit = int(limit)
+  
+#   while(count < limit):
+#     coin = random.randint(1,2)
+    
+#     if(coin == 1):
+#       heads = heads + 1
+#     else:
+#       tails = tails + 1
+#     count = count + 1
+
+#   heads = str(heads)
+#   tails = str(tails)
+  
+#   print("Heads: " + heads)
+#   print("Tails: " + tails)
+
+# dice role count
+
+# import random
+
+# one = 0
+# two = 0
+# three = 0
+# four = 0
+# five = 0
+# six = 0
+
+# count = 0
+# limit = input("Number of dice rolls: " )
+# limit = int(limit)
+
+# while(count < limit):
+#   dice = random.randint(1,6)
+  
+#   if(dice == 1):
+#     one = one + 1
+    
+#   elif(dice == 2):
+#     two = two + 1
+    
+#   elif(dice == 3):
+#     three = three + 1
+    
+#   elif(dice == 4):
+#     four = four + 1
+    
+#   elif(dice == 5):
+#     five = five + 1
+    
+#   else:
+#     six = six + 1
+    
+#   count = count + 1
+
+# print("Ones: ", one)
+# print("Twos: ", two)
+# print("Threes: ", three)
+# print("Fours: ", four)
+# print("Fives: ", five)
+# print("Sixes: ", six)
