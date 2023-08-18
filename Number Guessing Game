@@ -1,0 +1,27 @@
+# import random
+
+# number = random.randint(1,100)
+# count = 0
+# limit = 25
+# evilnum = random.randint(1,100)
+
+# while(count < limit):
+
+#   guess = input("Guess a number: ")
+#   guess = int(guess)
+  
+#   if(guess < number):
+#     print("Too low.")
+  
+#   elif(guess > number):
+#     print("Too high.")
+
+#   else:
+#     print("You got it!")
+#     print("Number of tries used:", count + 1)
+    
+#     break
+#   if(count == 24):
+#     print("You ran out of tries!")
+#     break
+#   count = count + 1
