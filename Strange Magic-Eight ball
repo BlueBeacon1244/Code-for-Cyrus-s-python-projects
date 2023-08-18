@@ -1,0 +1,64 @@
+# import random
+
+# num = random.randint(1,20)
+# question = input("Ask a question:")
+
+# if(num == 1):
+#   print("yes")
+
+# if(num == 2):
+#   print("no")
+
+# if(num == 3):
+#   print("It could be not and you will fall.")
+
+# if(num == 4):
+#   print("Roses are red violets are blue and its certaintly true.")
+
+# if(num == 5):
+#   print("Go run into a pole and it will not be true.")
+
+# if(num == 6):
+#   print("Things can be uncertain if you hit your head.")
+
+# if(num == 7):
+#   print("There is absoulutly zero chance, or not?")
+
+# if(num == 8):
+#   print("Nobody knows so how would I?")
+
+# if(num == 9):
+#   print("Theres a chance... that you will lose as in a zero percent chance.")
+
+# if(num == 10):
+#   print("Box.")
+
+# if(num == 11):
+#   print("Go jump down a well because it won't come true.")
+
+# if(num == 12):
+#   print("Someone is now hunting you because they are scared of your question.")
+
+# if(num == 13):
+#   print("Go ask a diffrent 8-ball.")
+
+# if(num == 14):
+#   print("This 8-ball needs more time, come back later!")
+
+# if(num == 15):
+#   print("Sus.")
+
+# if(num == 16):
+#   print("86 / 0 is the chance of that happening.")
+
+# if(num == 17):
+#   print("Everything is unsure so I don't know.")
+
+# if(num == 18):
+#   print("Tip: That is completely true, maybe.")
+
+# if(num == 19):
+#   print("StOp ShAkInG mE pLeAsE.")
+  
+#   if(num == 20):
+#     print("Look behind you.")
