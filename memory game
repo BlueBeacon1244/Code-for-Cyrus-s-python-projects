@@ -1,0 +1,74 @@
+# Note: I made this in replit
+
+
+
+# from replit import clear
+
+# import time
+# import random
+
+
+# replay = "yes"
+
+# while(replay == "yes"):
+#   string = ""
+#   rounds = 0
+#   lives = 3
+  
+#   while lives > 0:
+#     num = random.randint(1,9)
+  
+#     string = string + str(num)
+  
+#     print(string)
+  
+#     time.sleep(5)
+  
+#     clear()
+  
+#     user = input("Please input the string put previously: ")
+  
+#     if(user == string):
+    
+#       print("Correct, continuing")
+    
+#       rounds = rounds + 1
+      
+    
+#     else:
+#       print("Inncorrect, the string was", string)
+    
+#       lives = lives - 1
+      
+#       rounds = rounds + 1
+
+#       print("Lives:", lives)
+
+#   print("You got through", rounds, "rounds!")
+  
+#   replay = input("Would you like to play again? ")
+
+# locate character
+
+# string = input("Say the phrase: ")
+# char = input("Say character: ")
+# i = 0
+# location = 0
+# found = 0
+
+# while(i < len(string)):
+  
+#   if(string[i] == char):
+    
+#     found = found + 1
+
+#     location = i
+    
+#   i = i + 1
+
+# if(found):
+#   print(char, "is in", string)
+#   print(location)
+#   print(found)
+# else:
+#   print(char, "is not in", string)
