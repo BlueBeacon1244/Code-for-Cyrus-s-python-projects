@@ -1,0 +1,125 @@
+# Project on replit
+
+# Outline Combonation (aspects of certain games I'll be sampling):
+
+# memory game
+# number guessing game
+# 8-ball
+
+# Number guessing game = main
+# 8-ball = reward
+# memory game = co - main
+# other = other
+
+# from replit import clear
+
+# import time
+# import random
+
+# replay = "yes"
+
+# while(replay == "yes"):
+
+#   limit = 25
+#   count = 0
+#   num2 = random.randint(1,10)
+#   num3 = random.randint(1,5)
+#   num = random.randint(1,1000000)
+
+#   print("Rules:")
+#   print("Number 1: Don't spam numbers and enter.")
+#   print("Number 2: Have fun!")
+#   print("Warning: This game jokes around a lot...")
+
+#   time.sleep(5)
+
+#   clear()
+
+#   while(count < limit):
+
+#     guess = input("Guess a number: ")
+#     guess = int(guess)
+
+
+#     if(guess < num):
+    
+#       print("Too low.")
+    
+#       time.sleep(1)
+    
+#       clear()
+#     elif(guess > num):
+    
+#       print("Too high.")
+    
+#       time.sleep(1)
+    
+#       clear()
+    
+#     else:
+#       print("You got it!")
+#       print("Number of tries used: ", count)
+      
+#       if(num2 == 1):
+#         print("Congrats ... look behind you.")
+      
+#       elif(num2 == 2):
+#         print("You win, maybe.")
+      
+#       elif(num2 == 3):
+#         print("You win so walk into a pole.")
+      
+#       elif(num2 == 4):
+#         print("Did you just win?")
+
+#       elif(num2 == 4):
+#         print("Why did you do this?")
+
+#       elif(num2 == 5):
+#         print("Congrats you win!")
+
+#       elif(num2 == 6):
+#         print("Error Error Error")
+
+#       elif(num2 == 7):
+#         print("You win! Play again if you dare...")
+
+#       elif(num2 == 8):
+#         print("Run into a wall if you won, just joking.")
+
+#       elif(num2 == 9):
+#         print("Congratulations!")
+
+#       else:
+#         print("Look behind you slowly...")
+#         break
+
+#       break
+    
+#     if(count == 24):
+#       print("You ran out of tries!")
+
+#       if(num3 == 1):
+#         print("You need your eyes open for this.")
+      
+#       elif(num3 == 2):
+#         print("You dead.")
+
+#       elif(num3 == 3):
+#         print("Nice try, but YOU LOSE!!!")
+
+#       elif(num3 == 4):
+#         print("Go walk into a wall because you lost!")
+
+#       else:
+#         print("Play again if you dare ... and your blind!")
+    
+#       break
+#     count = count + 1
+    
+#   replay = input("Would you like to play again? If so slap yourself in the face then type yes: ")
+  
+#   if(replay == "yes"):
+#     time.sleep(1)
+    
+#     clear()
